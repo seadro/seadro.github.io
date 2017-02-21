@@ -59,10 +59,13 @@ a:hover{text-decoration:underline}
 
 /* Jika berukuran 480px atau kurang*/
 @media screen and (max-width:700px) {
-    #header{
-        height:auto;
+    #pagewarp {
+        width:96%;
+    }
+    #content{
+        width:66%;
     }
     #sidebar{
-        display:none;
+        width:30%;
     }
 }
