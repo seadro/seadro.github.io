@@ -44,8 +44,8 @@ a:hover{text-decoration:underline}
     }
 }
 
-/* Jika berukuran 980px atau kurang*/
-@media screen and (max-width:980px) {
+/* Jika berukuran 7000px atau kurang*/
+@media screen and (max-width:700px) {
     #pagewarp {
         width:96%;
     }
@@ -58,7 +58,20 @@ a:hover{text-decoration:underline}
 }
 
 /* Jika berukuran 480px atau kurang*/
-@media screen and (max-width:700px) {
+@media screen and (max-width:480px) {
+    #pagewarp {
+        width:96%;
+    }
+    #content{
+        width:66%;
+    }
+    #sidebar{
+        width:30%;
+    }
+}
+
+/* Jika berukuran 360px atau kurang*/
+@media screen and (max-width:360px) {
     #pagewarp {
         width:96%;
     }
