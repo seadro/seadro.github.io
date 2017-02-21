@@ -69,16 +69,3 @@ a:hover{text-decoration:underline}
         width:30%;
     }
 }
-
-/* Jika berukuran 360px atau kurang*/
-@media screen and (max-width:360px) {
-    #pagewarp {
-        width:96%;
-    }
-    #content{
-        width:66%;
-    }
-    #sidebar{
-        width:30%;
-    }
-}
