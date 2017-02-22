@@ -1,6 +1,6 @@
 body{
 	background-image:url(images/taduuda-72915.jpg);
-	background-size:100%;
+	background-size:auto;
 	font-family:Raleway,Open Sans,Droid Sans,arial,sans-serif;
 }
 
@@ -33,37 +33,37 @@ a:hover{text-decoration:underline}
 
 /* Jika berukuran 980px atau kurang*/
 @media screen and (max-width:980px) {
-    #pagewarp {
-        width:96%;
-    }
-    #content{
-        width:66%;
-    }
-    #sidebar{
-        width:30%;
-    }
+#pagewarp {
+width:96%;
+}
+#content{
+width:66%;
+}
+#sidebar{
+width:30%;
+}
 }
 
 /* Jika berukuran 7000px atau kurang*/
 @media screen and (max-width:700px) {
-   #content{
-        width:auto;
-        float:none;
-    }
-    #sidebar{
-        width:auto;
-        float:none;
-    }
+#content{
+width:auto;
+float:none;
+}
+#sidebar{
+width:auto;
+float:none;
+}
 }
 
 /* Jika berukuran 480px atau kurang*/
 @media screen and (max-width:480px) {
-  #content{
-        width:auto;
-        float:none;
-    }
-    #sidebar{
-        width:auto;
-        float:none;
-    }
+#content{
+width:auto;
+float:none;
+}
+#sidebar{
+width:auto;
+float:none;
+}
 }
