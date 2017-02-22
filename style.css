@@ -1,6 +1,7 @@
 body{
-	background-image:url(images/taduuda-72915.jpg);
-	background-size:center;
+	background-image:url(images/taduuda-72915.jpg)no-repeat scroll;
+	background-size:100% 100%;
+	min-height:700px;
 	font-family:Raleway,Open Sans,Droid Sans,arial,sans-serif;
 }
 
